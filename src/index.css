@@ -72,6 +72,10 @@ body {
   margin: 0;
 }
 
+#root {
+
+}
+
 nav {
   padding: 15px;
   display: flex;
@@ -89,4 +93,28 @@ nav > span {
   font-size: 1.9em;
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   color: aqua;
+}
+
+/* Content */
+/* styling content and header */
+main {
+  background: #282035;
+  color: white;
+  padding: 60px 30px;
+}
+
+main>h1 {
+  margin: 0;
+  font-size: 2.4em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.list-item {
+  max-width: 400px;
+  margin-top: 50px;
+}
+
+.list-item>li {
+  margin-top: 46px;
+  line-height: 19px;
 }
